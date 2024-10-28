@@ -1,0 +1,121 @@
+@media all and (min-width: 500px){ 
+    html{
+            font-family: "Inria Serif", serif;
+            font-weight: 500;
+		    font-style: normal;
+        }
+        body{
+            width:100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            background-color: #A62E2E;
+            text-align: center;
+            
+        }
+        main{
+            background-color: #EDECE4;
+            border-radius: 50px;
+            width:90vw;
+            height: 90vh;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding:8px;
+            overflow: scroll;
+        }
+        img{
+            width:100%;
+        }
+        h1{
+            font-weight: 500;
+        }
+        h3{
+            font-weight: 400;
+        }
+        #info{
+            display:flex;
+            justify-content: flex-start;
+            
+            flex-direction: column;
+            
+        }
+        #main_info, #photo_traffic_cone{
+            width:50%;
+            margin:0;
+        }
+        #icon_insta{
+            width:2vh;
+            margin-right:7px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-family: "Inria Serif", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    body{
+        width:100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        background-color: #A62E2E;
+        text-align: center;
+        
+    }
+    main{
+        background-color: #EDECE4;
+        border-radius: 50px;
+        width:90vw;
+        height: 90vh;
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:8px;
+        overflow: scroll;
+    }
+    img{
+        width:100%;
+    }
+    h1{
+        font-weight: 500;
+    }
+    h3{
+        font-weight: 400;
+    }
+    #info{
+        display:flex;
+        justify-content: flex-start;
+        
+        flex-direction: column;
+        
+    }
+    #main_info, #photo_traffic_cone{
+        width:100%;
+        margin:0;
+    }
+    #icon_insta{
+        width:2vh;
+        margin-right:7px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
